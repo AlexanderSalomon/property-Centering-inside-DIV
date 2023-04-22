@@ -1,0 +1,28 @@
+.box {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    background-color: aqua;
+    margin: auto;
+}
+
+.boxChild1, .boxChild2 {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.boxChild1 {
+    position: absolute;
+    background-color: brown;
+
+}
+
+.boxChild2 {
+    position: absolute;
+    background-color: rgb(43, 206, 22);
+
+}
